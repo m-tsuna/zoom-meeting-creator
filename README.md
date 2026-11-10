@@ -23,6 +23,11 @@ Zoom API を使って、日時を指定した Zoom 会議を作成し、**会議
 - パスワードは Zoom が自動で作ります
 - 主催者用の開始リンク（`start_url`）は、悪用を防ぐため表示しません
 
+## 使う技術
+
+- Python 3（requests・python-dotenv）
+- Zoom API（Server-to-Server OAuth で会議を作成）
+
 ## 事前準備
 
 1. Python 3 と、次のライブラリ（Anaconda には最初から入っています）
